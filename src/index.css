@@ -1,0 +1,118 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+
+.Inter {
+    font-family: 'Inter';
+}
+
+.hammer {
+    font-family: "Hammersmith One";
+}
+
+.readex {
+    font-family: "Readex Pro";
+}
+
+.ul_container {
+    display: grid;
+    grid-template-columns: repeat(auto-fill, minmax(220px, 1fr));
+    gap: 1rem;
+}
+
+.container {
+    display: grid;
+    grid-template-columns: 220px 1fr;
+}
+
+.containerrr {
+    position: relative;
+}
+
+
+.bottom-button {
+    position: absolute;
+    bottom: 0;
+    left: 42%;
+    transform: translateX(-50%);
+}
+.product-input{
+    width: 15px;
+    height: 15px;
+    margin-right: 5px;
+    border: 2px solid  #0BA42D;
+    border-radius: 2px;
+    cursor: pointer;
+}
+.container{
+    margin: 0px auto;
+}
+.resetBtn{
+    display: block;
+    border: 1px solid  #0BA42D;
+    padding: 6px 15px;
+    border-radius: 15px;
+    margin-top: 10px;
+}
+.cart {
+    border: 0.5px solid #eee;
+    margin-bottom: 10px;
+    box-shadow: 2px 2px 2px #f3efef;
+}
+.product-box{
+    display: flex;
+    position: relative;
+}
+.product-box-mini{
+    display: flex;
+    position: absolute;
+    top: 150px;
+    left: 250px;
+
+}
+.product-content-text p{
+    margin: 10px 0px;
+    font-size: 18px;
+}
+.product-content-text{
+    margin-top: 50px;
+}
+.p-button{
+    border: 1px solid  #0BA42D;
+    border-radius: 10px;
+    display: inline-block;
+    padding: 10px 30px;
+    background-color: #F5F5F5;
+}
+.color{
+    color: #0BA42D;
+}
+.add-btn{
+    margin-top: 20px;
+    display: flex;
+    background-color: #0BA42D;
+    color: white;
+    border-radius: 10px;
+    padding: 5px 15px;
+}
+.flex2 img{
+    display: inline;
+    border: 1px solid black;
+}
+.flex2 {
+    display: flex;
+}
+.img-box{
+  display: flex;
+  gap: 20px;
+  position: absolute;
+  top: 900px;
+  left: 200px;
+
+
+}
+.img-box img{
+    border: 1px solid black;
+    padding: 20px;
+}
